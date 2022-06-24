@@ -2723,10 +2723,13 @@ html .ui-button.ui-state-disabled:active{
 .se09{
   .container-1100{
     padding-top: 170rem;
-    padding-bottom: 100rem;
     border-bottom: 1rem dashed #000;
+    div:last-child{
+      padding-bottom: 100rem;
+    }
     &:last-child{
       border: none;
+      // padding-bottom: 100rem;
     }
     .sec_def{
       position: relative;

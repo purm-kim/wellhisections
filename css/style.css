@@ -3460,8 +3460,11 @@ html .ui-button.ui-state-disabled:active {
 
 .se09 .container-1100 {
   padding-top: 170rem;
-  padding-bottom: 100rem;
   border-bottom: 1rem dashed #000;
+}
+
+.se09 .container-1100 div:last-child {
+  padding-bottom: 100rem;
 }
 
 .se09 .container-1100:last-child {
