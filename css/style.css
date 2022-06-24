@@ -3272,7 +3272,7 @@ html .ui-button.ui-state-disabled:active {
 
 .sub_common .container-1200 .txt_slide .swiper-slide .swiper-counter .progress {
   width: 80rem;
-  height: 2rem;
+  height: 1rem;
 }
 
 .sub_common .container-1200 .txt_slide .swiper-slide .swiper-counter .progress span {
@@ -3499,7 +3499,8 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .se09 .container-1100 .sec_sym .boxes {
-  gap: 50rem;
+  gap: 40rem;
+  row-gap: 30rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -3534,6 +3535,20 @@ html .ui-button.ui-state-disabled:active {
   color: #fff;
 }
 
+.se09 .container-1100 .sec_sym .boxes li.round-245 {
+  padding: 20rem;
+  width: 245rem;
+  border-radius: 103rem;
+  background-color: #f6f6f6;
+}
+
+.se09 .container-1100 .sec_sym .boxes li.round-330 {
+  padding: 20rem;
+  width: 330rem;
+  border-radius: 103rem;
+  background-color: #f6f6f6;
+}
+
 .se09 .container-1100 .sec_car .en {
   font-size: 18rem;
   font-weight: 600;
@@ -3551,6 +3566,7 @@ html .ui-button.ui-state-disabled:active {
 
 .se09 .container-1100 .sec_car .boxes .treat {
   width: 100%;
+  font-size: 18rem;
   padding-bottom: 30rem;
   border-bottom: 1rem dashed #000;
 }
@@ -3573,23 +3589,32 @@ html .ui-button.ui-state-disabled:active {
   gap: 5rem;
 }
 
-.se09 .container-1100 .sec_car .boxes .treat .list .img_wrap {
-  margin-right: 5rem;
-  width: 20rem;
-  height: 20rem;
+.se09 .container-1100 .sec_car .boxes .treat .list li {
+  position: relative;
 }
 
-.se09 .container-1100 .sec_car .boxes .treat .list .img_wrap img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+.se09 .container-1100 .sec_car .boxes .treat .list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  width: 20rem;
+  height: 20rem;
+  background: url(/img/common/check.svg) no-repeat center center/contain;
 }
 
 .se09 .container-1100 .sec_car .boxes .treat .list .w50 {
+  padding-left: 25rem;
   width: 45%;
 }
 
 .se09 .container-1100 .sec_car .boxes .treat .list .w100 {
+  padding-left: 25rem;
   width: 100%;
+}
+
+.se09 .container-1100 .borderB {
+  padding-bottom: 100rem;
+  border-bottom: 1rem dashed #000;
 }
