@@ -895,7 +895,7 @@ section > .title_text {
 }
 
 .pb00 {
-  padding-bottom: 00rem;
+  padding-bottom: 00rem !important;
 }
 
 .mt00 {
@@ -923,7 +923,7 @@ section > .title_text {
 }
 
 .pb10 {
-  padding-bottom: 10rem;
+  padding-bottom: 10rem !important;
 }
 
 .mt10 {
@@ -951,7 +951,7 @@ section > .title_text {
 }
 
 .pb20 {
-  padding-bottom: 20rem;
+  padding-bottom: 20rem !important;
 }
 
 .mt20 {
@@ -979,7 +979,7 @@ section > .title_text {
 }
 
 .pb30 {
-  padding-bottom: 30rem;
+  padding-bottom: 30rem !important;
 }
 
 .mt30 {
@@ -1007,7 +1007,7 @@ section > .title_text {
 }
 
 .pb40 {
-  padding-bottom: 40rem;
+  padding-bottom: 40rem !important;
 }
 
 .mt40 {
@@ -1035,7 +1035,7 @@ section > .title_text {
 }
 
 .pb50 {
-  padding-bottom: 50rem;
+  padding-bottom: 50rem !important;
 }
 
 .mt50 {
@@ -1063,7 +1063,7 @@ section > .title_text {
 }
 
 .pb60 {
-  padding-bottom: 60rem;
+  padding-bottom: 60rem !important;
 }
 
 .mt60 {
@@ -1091,7 +1091,7 @@ section > .title_text {
 }
 
 .pb70 {
-  padding-bottom: 70rem;
+  padding-bottom: 70rem !important;
 }
 
 .mt70 {
@@ -1119,7 +1119,7 @@ section > .title_text {
 }
 
 .pb80 {
-  padding-bottom: 80rem;
+  padding-bottom: 80rem !important;
 }
 
 .mt80 {
@@ -1147,7 +1147,7 @@ section > .title_text {
 }
 
 .pb90 {
-  padding-bottom: 90rem;
+  padding-bottom: 90rem !important;
 }
 
 .mt90 {
@@ -1175,7 +1175,7 @@ section > .title_text {
 }
 
 .pb100 {
-  padding-bottom: 100rem;
+  padding-bottom: 100rem !important;
 }
 
 .mt100 {

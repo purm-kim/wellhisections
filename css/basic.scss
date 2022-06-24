@@ -398,7 +398,7 @@ section > .title_text {
     padding-top: #{$i}0rem;
   }
   .pb#{$i}0{
-    padding-bottom: #{$i}0rem;
+    padding-bottom: #{$i}0rem !important;
   }
   .mt#{$i}0{
     margin-top: #{$i}0rem;
