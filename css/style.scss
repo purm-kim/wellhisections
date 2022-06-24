@@ -2575,12 +2575,11 @@ html .ui-button.ui-state-disabled:active{
             -webkit-text-fill-color: transparent;
           }
           .progress{
-            // display: none;
             width: 80rem;
             height: 1rem;
-            // background: rgba($color: #000, $alpha: 0.15);
+            background-color: rgba($color: #000, $alpha: 0.05);
             span{
-              display: block;
+              opacity: 0;
               width: 1rem;
               height: 1rem;
               background-color: #000;
@@ -2613,8 +2612,9 @@ html .ui-button.ui-state-disabled:active{
         }
         .swiper-counter{
           .progress{
-            // display: block;
             span{
+              opacity: 1;
+              display: block;
               width: 80rem;
             }
           }
